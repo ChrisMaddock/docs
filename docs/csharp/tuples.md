@@ -1,17 +1,9 @@
 ---
 title: Tuples - C# Guide
 description: Learn about unnamed and named tuple types in C#
-keywords: .NET, .NET Core, C#
-author: BillWagner
-ms-author: wiwagn
 ms.date: 11/23/2016
-ms.topic: article
-ms.prod: .net
-ms.technology: devlang-csharp
-ms.devlang: csharp
 ms.assetid: ee8bf7c3-aa3e-4c9e-a5c6-e05cc6138baa
 ---
-
 # C# Tuple types #
 
 C# Tuples are types that you define using a lightweight syntax. The advantages
@@ -19,9 +11,9 @@ include a simpler syntax, rules for conversions based on number (referred to as 
 and types of elements, and
 consistent rules for copies and assignments. As a tradeoff, Tuples do not
 support some of the object oriented idioms associated with inheritance. You
-can get an overview in the section on [Tuples in the What's new in C# 7](whats-new/csharp-7.md#tuples) topic.
+can get an overview in the section on [Tuples in the What's new in C# 7.0](whats-new/csharp-7.md#tuples) topic.
 
-In this topic, you'll learn the language rules governing Tuples in C# 7,
+In this topic, you'll learn the language rules governing Tuples in C# 7.0 and later,
 different ways to use them, and initial guidance on working with Tuples.
 
 > [!NOTE]

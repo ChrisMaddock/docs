@@ -4,10 +4,6 @@ description: This quickstart shows you how to use C# string interpolation featur
 author: rpetrusha
 ms.author: ronpet
 ms.date: 04/14/2018
-ms.topic: get-started-article
-ms.prod: .net
-ms.technology: devlang-csharp
-ms.devlang: csharp
 ms.custom: mvc
 ---
 # String interpolation
@@ -168,4 +164,4 @@ You've completed the string interpolation quickstart.
 
 You can continue with the [List collection](arrays-and-collections.md) quickstart in your own development environment.
 
-Learn more about string interpolation in the [String interpolation](../language-reference/tokens/interpolated.md) topic in the C# Reference.
+For more information, see the [String interpolation](../language-reference/tokens/interpolated.md) topic and the [String interpolation in C#](../tutorials/string-interpolation.md) tutorial.
