@@ -117,11 +117,11 @@ The following is a quick demonstration of some of the essential pieces of LINQ. 
 
 ```csharp
 // Filtering a list
-var germanShepards = dogs.Where(dog => dog.Breed == DogBreed.GermanShepard);
+var germanShepherds = dogs.Where(dog => dog.Breed == DogBreed.GermanShepherd);
 
 // Using the query syntax
-var queryGermanShepards = from dog in dogs
-                          where dog.Breed == DogBreed.GermanShepard
+var queryGermanShepherds = from dog in dogs
+                          where dog.Breed == DogBreed.GermanShepherd
                           select dog;
 
 // Mapping a list from type A to type B
@@ -168,7 +168,7 @@ public class DogHairLengthComparer : IEqualityComparer<Dog>
     public int GetHashCode(Dog d)
     {
         // default hashcode is enough here, as these are simple objects.
-        return b.GetHashCode();
+        return d.GetHashCode();
     }
 }
 
