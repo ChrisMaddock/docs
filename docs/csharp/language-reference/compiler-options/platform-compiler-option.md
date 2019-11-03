@@ -62,9 +62,6 @@ For more information about developing an application to run on a Windows 64-bit 
 
 3. Modify the **Platform target** property and, for projects that target the .NET Framework 4.5, select or clear the **Prefer 32-bit** check box.
 
-> [!NOTE]
-> `-platform` is not available in the development environment in Visual C# Express.
-
 For information on how to set this compiler option programmatically, see <xref:VSLangProj80.CSharpProjectConfigurationProperties3.PlatformTarget%2A>.
 
 ## Example
